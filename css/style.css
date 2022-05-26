@@ -1,0 +1,95 @@
+.global_block{
+	display: inline-block;
+	vertical-align: top;
+	width: 15%;
+	min-height: 1200px;
+	/*min-width: 5%;*/
+	margin: 0 auto;
+	/*margin-right: auto;*/
+	position: relative;
+	overflow: hidden;
+
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #E8E0E0;
+	border-radius: 10px;
+
+}
+
+.global_block_2{
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+	/*min-width: 5%;*/
+	margin: 0 auto;
+	/*margin-right: auto;*/
+	position: relative;
+
+
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #8E6B6B;
+	border-radius: 10px;
+}
+
+.global_block_3{
+	display: inline-block;
+	vertical-align: top;
+	max-width: 20%;
+	min-height: 1200px;
+	/*min-width: 5%;*/
+	margin: 0 auto;
+	/*margin-right: auto;*/
+	position: relative;
+	float: right;
+	overflow: hidden;
+
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #E8E0E0;
+	border-radius: 10px;
+
+}
+
+header{
+	background-color: #CC613C;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+
+}
+
+.card-photo {
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.card-tittle{
+	font-size: 20px;
+	text-align: center;
+	color: #37D755;
+}
+
+.text{
+	display: block;
+	font-size: 14px;
+	width: 200px;
+	 /* я задал значение*/
+}
+
+.text2{
+	display: block;
+	font-size: 14px;
+	width: 1000px;
+	}
+
+.card-subtitle{
+	font-size: 18px;
+	color: #9B2B2B;
+}
+.card-list{
+	padding-left: 0px;
+	list-style-position: inside;
+	font-size: 14px;
