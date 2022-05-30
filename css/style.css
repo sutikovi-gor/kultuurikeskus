@@ -24,11 +24,12 @@
 	margin: 0 auto;
 	/*margin-right: auto;*/
 	position: relative;
+	/*transform: translate(-50%, -50%);  при изменении окна оставляет блок по центру.*/ 
 
 
 	padding-right: 20px;
 	padding-left: 20px;
-	background-color: #8E6B6B;
+	background-color: #FFFFFF;
 	border-radius: 10px;
 }
 
@@ -51,14 +52,76 @@
 
 }
 
+body{
+	margin: 0;
+	background-color: #FFFFFF;
+}
+
 header{
+	position: relative;
 	background: url(../img/pilt2_kultuurikeskus.jpg);
 	background-size: 2000px 450px;
 	background-position: center;
-	padding-bottom: 420px;
+	padding-bottom: 300px;
 	margin-bottom: 10px;
 
+
+
 }
+
+.text_header{
+	position: absolute; /*для блока, изменяемого внутри блока c position relativ*/
+	padding-left: 350px;
+	padding-top: 200px;
+	color: #FFFFFF;
+	font-size: 50px;
+	font-family: Arial;
+
+	/*width: inherit;
+	height: inherit; как у родителя*/
+
+}
+
+.div_header{
+	position: relative;
+	font-family: Arial;
+	float: right;
+	padding-left: 1000px;
+	margin-right: 150px;
+	padding-top: 0px;
+	/*filter: blur(5px);*/
+
+}
+
+.div_header_text{
+	color: #FFFFFF;
+	font-size: 20px;
+
+} 
+
+
+.text{
+	font-family: Arial;
+	text-align: justify; /*выравнивание по сторонам*/
+	display: block;
+	font-size: 20px;
+	width: 1200px;
+
+	text-indent: 20px; /* отступ первой строки*/
+	white-space: normal;
+	
+}
+
+.text2{
+	/*display: block;*/
+	font-size: 20px;
+	width: 20px;
+	color: #FFFFFF;
+	/*padding-bottom: 200px;*/
+	padding-left: 500px;
+
+	}
+
 
 .card-photo {
 	display: block;
@@ -74,18 +137,8 @@ header{
 	color: #37D755;
 }
 
-.text{
-	display: block;
-	font-size: 14px;
-	width: 200px;
-	 /* я задал значение*/
-}
 
-.text2{
-	display: block;
-	font-size: 14px;
-	width: 1000px;
-	}
+
 
 .card-subtitle{
 	font-size: 18px;
