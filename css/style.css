@@ -67,6 +67,7 @@ header{
 
 
 
+
 }
 
 .text_header{
@@ -84,18 +85,25 @@ header{
 
 .div_header{
 	position: relative;
+	display: inline-block;
 	font-family: Arial;
 	float: right;
 	padding-left: 1000px;
-	margin-right: 150px;
-	padding-top: 0px;
+	margin-right: 180px;
+	padding-top: 100px;
 	/*filter: blur(5px);*/
+
 
 }
 
 .div_header_text{
 	color: #FFFFFF;
-	font-size: 20px;
+	font-size: 17px;
+
+	/*background-color: rgb(0,0,0);*/
+	background-color: rgba(0,0,0, 0.3); /*делает полупрозрачный фон за текстом*/
+	color: white;
+	font-weight: bold;
 
 } 
 
@@ -123,28 +131,44 @@ header{
 	}
 
 
-.card-photo {
-	display: block;
-	width: 200px;
-	height: 200px;
-	margin: 0 auto;
-	border-radius: 50%;
-}
-
-.card-tittle{
-	font-size: 20px;
-	text-align: center;
-	color: #37D755;
-}
 
 
+.dws_menu ul,
+.dws_menu ol {
+	list-style: none;
+
+	}
+	.dws_menu > ul{
+		display: flex;
+		justify-content: center;
+	}
+
+	.dws_menu > ul li a{
+		display: block;
+		padding: 15px 30px 15px 40px;
+		text-decoration: none;
+		color: #FFFFFF;
+		font-weight: bold;
+		background-color: rgba(0,0,0, 0.3);
+
+	}
+
+	.dws_menu li ul {
+		position: absolute;
+		display: none;
 
 
-.card-subtitle{
-	font-size: 18px;
-	color: #9B2B2B;
-}
-.card-list{
-	padding-left: 0px;
-	list-style-position: inside;
-	font-size: 14px;
+	}
+	.dws_menu li> ul li{
+		border: 1px;
+
+	}
+	.dws_menu li:hover > ul{
+		display: block;
+		font-weight: bold;
+		color: #080000;
+	}
+
+	.fa-fa-{
+
+	}
