@@ -52,8 +52,10 @@
 }
 
 header{
-	background-color: #CC613C;
-	padding-bottom: 20px;
+	background: url(../img/pilt2_kultuurikeskus.jpg);
+	background-size: 2000px 450px;
+	background-position: center;
+	padding-bottom: 420px;
 	margin-bottom: 10px;
 
 }
