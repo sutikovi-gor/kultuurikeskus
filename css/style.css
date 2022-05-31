@@ -3,16 +3,17 @@
 	vertical-align: top;
 	width: 15%;
 	min-height: 1200px;
-	/*min-width: 5%;*/
+	
 	margin: 0 auto;
-	/*margin-right: auto;*/
 	position: relative;
 	overflow: hidden;
-
 	padding-right: 20px;
 	padding-left: 20px;
 	background-color: #E8E0E0;
 	border-radius: 10px;
+
+	/*margin-right: auto;*/
+	/*min-width: 5%;*/
 
 }
 
@@ -20,17 +21,19 @@
 	display: inline-block;
 	vertical-align: top;
 	width: 60%;
-	/*min-width: 5%;*/
 	margin: 0 auto;
-	/*margin-right: auto;*/
 	position: relative;
-	/*transform: translate(-50%, -50%);  при изменении окна оставляет блок по центру.*/ 
-
-
 	padding-right: 20px;
 	padding-left: 20px;
 	background-color: #FFFFFF;
 	border-radius: 10px;
+
+	/*margin-right: auto;*/
+	/*min-width: 5%;*/
+	/*transform: translate(-50%, -50%);  при изменении окна оставляет блок по центру.*/ 
+
+
+	
 }
 
 .global_block_3{
@@ -38,17 +41,18 @@
 	vertical-align: top;
 	max-width: 20%;
 	min-height: 1200px;
-	/*min-width: 5%;*/
+	
 	margin: 0 auto;
-	/*margin-right: auto;*/
 	position: relative;
 	float: right;
 	overflow: hidden;
-
 	padding-right: 20px;
 	padding-left: 20px;
 	background-color: #E8E0E0;
 	border-radius: 10px;
+
+	/*min-width: 5%;*/
+	/*margin-right: auto;*/
 
 }
 
@@ -71,7 +75,7 @@ header{
 }
 
 .text_header{
-	position: absolute; /*для блока, изменяемого внутри блока c position relativ*/
+	position: absolute;    /*для блока, изменяемого внутри блока c position relativ*/
 	padding-left: 350px;
 	padding-top: 200px;
 	color: #FFFFFF;
@@ -83,14 +87,17 @@ header{
 
 }
 
-.div_header{
+/*.div_header{
 	position: relative;
 	display: inline-block;
+	height: 10px;
 	font-family: Arial;
 	float: right;
-	padding-left: 1000px;
+	padding-left: 200px;
 	margin-right: 180px;
-	padding-top: 100px;
+	padding-top: 0px;
+	background-color: rgba(0,0,0, 0.2);
+
 	/*filter: blur(5px);*/
 
 
@@ -100,8 +107,7 @@ header{
 	color: #FFFFFF;
 	font-size: 17px;
 
-	/*background-color: rgb(0,0,0);*/
-	background-color: rgba(0,0,0, 0.3); /*делает полупрозрачный фон за текстом*/
+	background-color: rgba(0,0,0, 0.2); /*делает полупрозрачный фон за текстом*/
 	color: white;
 	font-weight: bold;
 
@@ -120,55 +126,80 @@ header{
 	
 }
 
-.text2{
-	/*display: block;*/
+/*.text2{
+	display: block;
 	font-size: 20px;
 	width: 20px;
 	color: #FFFFFF;
-	/*padding-bottom: 200px;*/
+	padding-bottom: 200px;
 	padding-left: 500px;
 
-	}
+	} */
 
 
+	header nav{
+  float: top left;
+  padding-left: 320px;
+}
 
+header .sub-menu{
+  display: none;
+  padding: 0;
+  left: 0;
+  top: 30px;
+  background-color: #f3f3f3;
+  position: absolute;
+  
+}
 
-.dws_menu ul,
-.dws_menu ol {
-	list-style: none;
+header .sub-menu li{
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  padding: 0;
+  
+}
 
-	}
-	.dws_menu > ul{
-		display: flex;
-		justify-content: center;
-	}
+header nav li{
+  display: inline-block;
+  padding-right: 40px;
+  position: relative;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #112589;
+  background-color: rgba(0,0,0, 0.25);
+  
 
-	.dws_menu > ul li a{
-		display: block;
-		padding: 15px 30px 15px 40px;
-		text-decoration: none;
-		color: #FFFFFF;
-		font-weight: bold;
-		background-color: rgba(0,0,0, 0.3);
+}
 
-	}
+header nav li a{
+    padding: 10px 2px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s;
+    color: #FFFFFF;   /*цвет текста*/
+}
 
-	.dws_menu li ul {
-		position: absolute;
-		display: none;
+header nav li a:hover{
+  background-color: #0C0B0B;
+  
+}
 
+header nav li:hover .sub-menu{
+  display: block;
+  
+}
 
-	}
-	.dws_menu li> ul li{
-		border: 1px;
+section h3{
+  font-size: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  
 
-	}
-	.dws_menu li:hover > ul{
-		display: block;
-		font-weight: bold;
-		color: #080000;
-	}
+}
 
-	.fa-fa-{
+section p {
+  font-size: 20px;
+  
 
-	}
+}
