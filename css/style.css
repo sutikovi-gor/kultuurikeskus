@@ -9,7 +9,7 @@
 	overflow: hidden;
 	padding-right: 20px;
 	padding-left: 20px;
-	background-color: #E8E0E0;
+	background-color: #F5F5F0;
 	border-radius: 10px;
 
 	/*margin-right: auto;*/
@@ -48,7 +48,7 @@
 	overflow: hidden;
 	padding-right: 20px;
 	padding-left: 20px;
-	background-color: #E8E0E0;
+	background-color: #F5F5F0;
 	border-radius: 10px;
 
 	/*min-width: 5%;*/
@@ -126,15 +126,15 @@ header{
 	
 }
 
-/*.text2{
-	display: block;
+.text2{
+	display: inline-block;
 	font-size: 20px;
 	width: 20px;
 	color: #FFFFFF;
-	padding-bottom: 200px;
-	padding-left: 500px;
+	/*padding-bottom: 200px;
+	padding-left: 500px; */
 
-	} */
+	} 
 
 
 	header nav{
@@ -146,7 +146,7 @@ header .sub-menu{
   display: none;
   padding: 0;
   left: 0;
-  top: 30px;
+  top: 37px;
   background-color: #f3f3f3;
   position: absolute;
   
@@ -172,21 +172,25 @@ header nav li{
 }
 
 header nav li a{
-    padding: 10px 2px;
+    padding: 10px 30px;
     display: block;
-    color: #000;
+    /*color: #BE3939;*/
     text-decoration: none;
     transition: 0.3s;
     color: #FFFFFF;   /*цвет текста*/
 }
 
 header nav li a:hover{
-  background-color: #0C0B0B;
+  background-color: #4131DF; /*подсветка при наведении*/
+  width: 200px;
+
   
 }
 
 header nav li:hover .sub-menu{
   display: block;
+  background-color: #8998F5; /*подложка выпадающего меню*/
+
   
 }
 
@@ -199,7 +203,15 @@ section h3{
 }
 
 section p {
-  font-size: 20px;
-  
+  font-size: 20px; 
 
+}
+
+.foto_rusici{
+	position: relative;
+	width: 800px;
+	height: 500px;
+	padding-left: 160px;
+	
+	
 }
