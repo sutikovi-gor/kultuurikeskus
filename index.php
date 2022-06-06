@@ -45,10 +45,10 @@
 
  <div class="global_block">
 
- 	<p>Это первый блок</p>
+ 	<h1>Meie uudised</h1>
 
   
-<p class="card-photo_block1">
+<div class="card-photo_block1">
   <?php
 
 
@@ -76,12 +76,14 @@ $connection->set_charset('utf-8');
   $query = mysqli_query($connection, "SELECT * FROM news ORDER BY id DESC");
   $numrows = mysqli_num_rows($query);
   while ($row = mysqli_fetch_array($query)) {
-  echo '<option>'.$row['title'].'</option>';
-  echo '<option>'.$row['text'].'</option>';
+  echo '<br><img src="data:image/jpeg;base64,' . base64_encode($row['picture']) . '" width=150 /><br>';
+  echo '<h2>'.$row['title'].'</h2>';
+  echo '<p>' .$row['text']. '</p>';
+  
   }
 
 ?> 
- </p> 
+ </div> 
 
  </div><!--
 
@@ -105,7 +107,7 @@ Tere tulemast Kultuurikeskusesse!</p>
  </div><!--
 
  --><div class="global_block_3">
- 	<p>Это третий блок третий </p>
+ 	<h2>Это третий блок третий </h2>
 
  </div>
 
