@@ -2,11 +2,12 @@
 	display: inline-block;
 	vertical-align: top;
 	width: 15%;
-	min-height: 1200px;
+	/*min-height: 600px;*/
+	height: 600px;
 	
 	margin: 0;
 	position: relative;
-	overflow: hidden;
+	overflow-y: scroll;
 	padding-right: 20px;
 	padding-left: 20px;
 	background-color: #F5F5F0;
@@ -39,13 +40,14 @@
 .global_block_3{
 	display: inline-block;
 	vertical-align: top;
-	max-width: 12%;
-	min-height: 1200px;
+	width: 12%;
+	min-height: 600px;
 	
 	margin: 0 auto;
+	margin-right: 5px;
 	position: relative;
 	float: right;
-	overflow: hidden;
+	/*overflow: scroll; */
 	padding-right: 20px;
 	padding-left: 20px;
 	background-color: #F5F5F0;
@@ -127,10 +129,12 @@ header{
 }
 
 .text2{
-	display: inline-block;
-	font-size: 20px;
+	font-family: Arial;
+	font-size: 17px;
 	width: 20px;
-	color: #FFFFFF;
+	text-align: justify;
+	float: right 5px;
+	
 	/*padding-bottom: 200px;
 	padding-left: 500px; */
 
@@ -225,5 +229,46 @@ section p {
 	font-family: Times New Roman;
 	text-align: justify;
 
+	}
 
+	.footer{
+		position: relative;
+		text-align: center;
+		width: 100%;
+		height: 200px;
+		margin: 0 auto;
+		margin-top: 125px;
+		padding-bottom: 25px;
+
+		color: #FFFFFF;
+		font-size: 30px;
+  	font-weight: bold;
+  	background-color: #383855;
+  	/*background-color: rgba(0,0,0, 0.25);*/
+		
+	}
+
+	.logo{
+		position: relative;
+		display: inline;
+		width: 125px;
+		height: 60px; 
+	}
+
+	footer a {
+		color: #FFFFFF;
+		font-size: 20px;
+		margin-left: 20px;
+	}
+
+/*задаём эффект изменения при наведении
+	footer nav a:hover {
+		border-bottom: 1px solid blue;
+		color: red;
+
+	}
+	*/
+
+	.bottom{
+		font-size: 15px;
 	}
