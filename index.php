@@ -28,7 +28,7 @@
        <li><a href="">Üldinfo</a></li>  
        <li><a href="">Kollektiivid</a>
        <ul class="sub-menu">
-         <li><a href="C:\xampp\htdocs\kultuurikeskus\index_2.html">Folklooriansambel Russitši</a></li>
+         <li><a href=".\rusitsi\">Folklooriansambel Russitši</a></li>
          <li><a href="">About 2</a></li>
          <li><a href="">About 3</a></li>
        </ul>
@@ -44,11 +44,15 @@
 
 
  <div class="global_block">
+
  	<p>Это первый блок</p>
 
-
-
+  
+<p class="card-photo_block1">
   <?php
+
+
+
 
 $db_server='localhost';
 $db_database='kultuurnews';
@@ -67,7 +71,7 @@ date_default_timezone_set('Europe/Tallinn');
 $connection->set_charset('utf-8');
 
 
-  echo '<ul>';
+  
 
   $query = mysqli_query($connection, "SELECT * FROM news ORDER BY id DESC");
   $numrows = mysqli_num_rows($query);
@@ -76,10 +80,8 @@ $connection->set_charset('utf-8');
   echo '<option>'.$row['text'].'</option>';
   }
 
-  echo '<ul>';
-
 ?> 
-
+ </p> 
 
  </div><!--
 

@@ -15,7 +15,7 @@
 
  <nav> 
      <ul> 
-       <li><a href="C:\xampp\htdocs\kultuurikeskus\index.html">Üldinfo</a></li>  
+       <li><a href="\kultuurikeskus\">Üldinfo</a></li>  
        <li><a href="">Kollektiivid</a>
        <ul class="sub-menu">
          <li><a href="C:\xampp\htdocs\kultuurikeskus\index_2.html">Folklooriansambel Russitši</a></li>
