@@ -132,6 +132,7 @@ Tere tulemast Kultuurikeskusesse!</p>
       </div>
       
       <p class="bottom">Sillamäe 2022</p>
+      <p class="bottom">Kõik õigused on kaitstud</p>
     
   </div>
 

@@ -21,6 +21,14 @@ elseif (mb_strlen($pass) < 5 || mb_strlen($pass) > 12) {
  	exit();
  }
 
+$pass = md5($pass."565gorski");
 
+$mysql = new mysqli('localhost', 'root', '', 'register-bd');
+$mysql -> query("INSERT INTO `users` (`login`, `pass`, `name`) 
+    VALUES('$login', '$pass', '$name')");
+
+    $mysql->close();
+
+    header('Location: ./')
 
 ?>
