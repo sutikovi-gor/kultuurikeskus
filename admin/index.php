@@ -43,8 +43,8 @@
 
 		<?php else:  ?>
 
-			<p>Tervist <?=$_COOKIE['user']?>. Tagasi admin <a href="/praktika/">esilehele</a>.</p>
-
+			<!---<p>Tervist <?=$_COOKIE['user']?>. Tagasi admin <a href="/praktika/">esilehele</a>.</p> -->
+			<a href="./diplom"></a>
 
 		<?php endif;?>
 

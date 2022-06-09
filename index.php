@@ -116,6 +116,17 @@ Tere tulemast Kultuurikeskusesse!</p>
       <a href="https://www.facebook.com/sillamaekultuur">Facebook f</a>
       </nav>
 
+      <div >
+        <h4>Autoriseerimise vorm</h4>
+        <form action="./admin/auth.php" method="post">
+        <input type="text" class="form-control" name="login" id="login" placeholder="sisestage login"><br>
+        <input type="password" class="form-control" name="pass" id="pass" placeholder="sisestage salasona"><br>
+
+        <button class="btn btn-success" type="submit">Autoriseerida</button>
+        </form>
+
+      </div>
+
  </div>
 
 <footer>

@@ -33,7 +33,7 @@
          <li><a href="..\kapel\">Vokaalrühm Kapel</a></li>
        </ul>
     </li>
-       <li><a href=".\contacts\">Kontaktid</a></li>  
+       <li><a href="..\contacts\">Kontaktid</a></li>  
      </ul> 
     </nav> 
 
