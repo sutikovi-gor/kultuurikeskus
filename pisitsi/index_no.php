@@ -1,39 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<?php
-
-//require 'dbConnect.php';
-
-?>
-
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/style.css">
-  
-    
-  
-	<title>Sillamae Kultuurikeskus</title>
+	<title></title>
 </head>
 <body>
  
 <header> 
 <br><br><br>
-<h1 class="text_header">ÜLDINFO</h1>
+<h1 class="text_header">FOLKLOORIANSAMBEL RUSITŠI</h1>
 
 
 
  <nav> 
      <ul> 
-       <li><a href="">Üldinfo</a></li>  
+       <li><a href="\kultuurikeskus\">Üldinfo</a></li>  
        <li><a href="">Kollektiivid</a>
        <ul class="sub-menu">
-         <li><a href=".\rusitsi\">Folklooriansambel Russitši</a></li>
-         <li><a href=".\etyd\">Koreograafiastuudio Etüüd</a></li>
-         <li><a href=".\kapel\">Vokaalrühm Kapel</a></li>
+         <li><a href="C:\xampp\htdocs\kultuurikeskus\index_2.html">Folklooriansambel Russitši</a></li>
+         <li><a href="">About 2</a></li>
+         <li><a href="">About 3</a></li>
        </ul>
     </li>
-       <li><a href=".\contacts\">Kontaktid</a></li>  
+       <li><a href="">Kontaktid</a></li>  
      </ul> 
     </nav> 
 
@@ -45,7 +35,7 @@
 
  <div class="global_block">
 
- 	<h1>Meie uudised</h1>
+  <h1>Meie uudised</h1>
 
   
 <div class="card-photo_block1"> 
@@ -88,27 +78,24 @@ $connection->set_charset('utf-8');
  </div><!--
 
 --><div class="global_block_2">
- 	<p class="text">1949. a ehitatud Sillamäe Kultuurikeskuse hoone on tunnistatud arhitektuurimälestiseks, mis on nii seest kui väljast säilitanud eelmise sajandi 40.-50. aastate stalinistliku stiili arhitektuuri. Hoone keldrikorrusel kunagises pommivarjendis paikneb püsiekspositsioon, mis on pühendatud linna Nõukogudeaegsele perioodile.<br><br>
 
-Kokku on Kultuurikeskuses 8 isetegevuskollektiivi, millest paljud on kuulsaks saanud nii Eestis kui ka välismaal. Tänapäeval osalevad meie kollektiivides üle 200 inimese.<br><br>
 
-Lisaks kaunile arhitektuurile on Kultuurikeskus erinevate kontsertide ja ürituste toimumiskohaks, samuti pakutakse rentimiseks nii individuaalseid ruume kui ka kogu hoone.<br><br>
 
-Sillamäe Kultuurikeskuse hoones on loodud tingimused selleks, et külastajatel oleks mugav. Meie jaoks on iga külastaja tähtis, püüame teha ürituste külastamise Kultuurikeskuses kõigile kättesaadavaks ja ligipääsetavaks.<br><br>
 
-Külgukse juures on olemas spetsiaalne kaldtee ratastoolis külastajate jaoks, auto on võimalik parkida kohe külgukse kõrvale. Majas on olemas invatualett. Laialt avanevad kahepoolsed uksed võimaldavad ratastooliga liikuda ka fuajees.<br><br>
+ 	<p class="text">Folklooriansambel Russitši asutati Slaavi Kultuuri Seltsi juures 1998. aastal. Alates 2000. aastast kuulub ansambel Russitši Sillamäe Kultuurikeskuse juurde. Alates 2002. aastast on ansamblit juhtinud Irina Dubrova. Ansambli repertuaaris on vene rahvalaule Venemaa erinevatest piirkondadest ja erinevatest folkloorisuundadest: pulmalaule, rahvakalendriga seotud laule, ringmängulaule, rahvamänge, lüürikat, tantsulaule, tšastuškasid jne, aga ka stiliseeritud ja populaarseid autorilugusid. Ansambel osaleb regulaarselt vabariiklikel, maakondlikel ja erinevate linnade folklooripühadel ning muudel üritustel. <br><br>Russitši on esinenud paljudes Eesti linnades. Ühistes programmides koos rahvatantsuansambliga Suveniir osalesid nad Europeade rahvamuusika- ja tantsufestivalil Saksamaal, Taanis, Hispaanias, Šveitsis ja FIFO rahvusvahelisel rahvafestivalil Šveitsis. Folklooriansambel Russitši on osalenud enam kui 200 ühiskontserdil ja andnud üle 50 iseseisva kontserdi.<br><br>
+  Armastus rahvaloomingu ja vene laulu vastu köidab ja inspireerib alati ansambli liikmeid. Kaasaegne vaade folkloorile koos hooliva suhtumisega rahvuskultuuri võimaldab meil olla pidevas loomingulises otsingus, pakkuda inimestele rõõmu ja säilitada rahvatraditsioone.<br><br>
+  Osalevad 18-aastased ja vanemad folkloorihuvilised.<br><br>
+  Kontsertmeister on Konstantin Fomichev.
 
-Kui külastajad vajavad abi ja juhendamist, siis on meie sõbralik personal alati valmis abi pakkuma.<br><br>
 
-Tere tulemast Sillamäele,<br><br>
-
-Tere tulemast Kultuurikeskusesse!</p>
+  <div>
+  <img class="foto_rusici" src="img/rusici.jpg">
+  </div>
 
  </div><!--
 
  --><div class="global_block_3">
-
- 	<h2>Meedia</h2>
+ <h2>Meedia</h2>
   <nav>
       <a href="https://youtu.be/gTGs_GyHEBE">Kultuurikeskus online</a>
       <br>

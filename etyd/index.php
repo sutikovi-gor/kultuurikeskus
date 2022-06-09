@@ -19,7 +19,7 @@
  
 <header> 
 <br><br><br>
-<h1 class="text_header">FOLKLOORIANSAMBEL RUSSITŠI</h1>
+<h1 class="text_header">KOREOGRAAFIASTUUDIO ETÜÜD</h1>
 
 
 
@@ -28,12 +28,12 @@
        <li><a href="../index.php">Üldinfo</a></li> 
        <li><a href="">Kollektiivid</a>
        <ul class="sub-menu">
-         <li><a href=".\">Folklooriansambel Russitši</a></li>
-         <li><a href="..\etyd\">Koreograafiastuudio Etüüd</a></li>
+         <li><a href="..\rusitsi">Folklooriansambel Russitši</a></li>
+         <li><a href=".\">Koreograafiastuudio Etüüd</a></li>
          <li><a href="..\kapel\">Vokaalrühm Kapel</a></li>
        </ul>
     </li>
-       <li><a href="..\contacts\">Kontaktid</a></li>  
+       <li><a href=".\contacts\">Kontaktid</a></li>  
      </ul> 
     </nav> 
 
@@ -89,19 +89,14 @@ $connection->set_charset('utf-8');
 
 --><div class="global_block_2">
  	
-  <p class="text">Folklooriansambel Russitši asutati Slaavi Kultuuri Seltsi juures 1998. aastal. Alates 2000. aastast kuulub ansambel Russitši Sillamäe Kultuurikeskuse juurde. Alates 2002. aastast on ansamblit juhtinud Irina Dubrova. Ansambli repertuaaris on vene rahvalaule Venemaa erinevatest piirkondadest ja erinevatest folkloorisuundadest: pulmalaule, rahvakalendriga seotud laule, ringmängulaule, rahvamänge, lüürikat, tantsulaule, tšastuškasid jne, aga ka stiliseeritud ja populaarseid autorilugusid. Ansambel osaleb regulaarselt vabariiklikel, maakondlikel ja erinevate linnade folklooripühadel ning muudel üritustel. <br><br>
-
-  Russitši on esinenud paljudes Eesti linnades. Ühistes programmides koos rahvatantsuansambliga Suveniir osalesid nad Europeade rahvamuusika- ja tantsufestivalil Saksamaal, Taanis, Hispaanias, Šveitsis ja FIFO rahvusvahelisel rahvafestivalil Šveitsis. Folklooriansambel Russitši on osalenud enam kui 200 ühiskontserdil ja andnud üle 50 iseseisva kontserdi.<br><br>
-
-  Armastus rahvaloomingu ja vene laulu vastu köidab ja inspireerib alati ansambli liikmeid. Kaasaegne vaade folkloorile koos hooliva suhtumisega rahvuskultuuri võimaldab meil olla pidevas loomingulises otsingus, pakkuda inimestele rõõmu ja säilitada rahvatraditsioone.<br><br>
-
-  Osalevad 18-aastased ja vanemad folkloorihuvilised.<br><br>
-
-  Kontsertmeister on Konstantin Fomichev.
+  <p class="text">Koreograafiastuudio Etüüd asutati 1988. aastal Sillamäe linna kultuurimajas. Stuudio juhataja on Lilia Hudjakova. Aastas õpib Etüüdis kuni 40 inimest. Repertuaar sisaldab kõige mitmekesisemat koreograafiat: klassikalist, stiliseeritud rahvalikku tantsu, akrobaatikat, tänapäevast koreograafiat. <br><br>
+  Kontsertidel on pealtvaatajal võimalus näha tantsunumbreid igale maitsele: kõik õpilased, alates armsatest väikelastest kuni kollektiivi täiskasvanud liikmeteni, armastavad kontsertidel osaleda. Koreograafiastuudio <br><br>
+  Etüüd võtab osa kõigist Kultuurikeskuses toimuvatest linna- ja piirkondlike ürituste raames toimuvatest kontsertidest, samuti osaleb regulaarselt Jõhvi rahvusvahelise balletifestivali laste galakontserdil. Aastate jooksul on Etüüd võitnud mitmeid kõrgeid auhindu: ta on rahvusvaheliste võistluste mitmekordne laureaat ja diplomand Eestis, Lätis, Venemaal, Poolas; Grand Prix võitja Bulgaarias, Obzoris toimunud konkursil "Nevskaja Volna" ja pälvinud "Rossotrudnichestvo" karika Sozopolis (samuti Bulgaarias).<br><br>
+  Osalejate vanus: 3 kuni 20 aastat.
 
 
   <div>
-  <img class="foto_rusici" src="../img/rusici.jpg">
+  <img class="foto_rusici" src="../img/etyd.jpg">
   </div>
 
  </div><!--

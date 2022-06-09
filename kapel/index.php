@@ -19,7 +19,7 @@
  
 <header> 
 <br><br><br>
-<h1 class="text_header">FOLKLOORIANSAMBEL RUSSITŠI</h1>
+<h1 class="text_header">VOKAALRÜHM KAPEL</h1>
 
 
 
@@ -28,12 +28,12 @@
        <li><a href="../index.php">Üldinfo</a></li> 
        <li><a href="">Kollektiivid</a>
        <ul class="sub-menu">
-         <li><a href=".\">Folklooriansambel Russitši</a></li>
+         <li><a href="..\rusitsi">Folklooriansambel Russitši</a></li>
          <li><a href="..\etyd\">Koreograafiastuudio Etüüd</a></li>
-         <li><a href="..\kapel\">Vokaalrühm Kapel</a></li>
+         <li><a href=".\">Vokaalrühm Kapel</a></li>
        </ul>
     </li>
-       <li><a href="..\contacts\">Kontaktid</a></li>  
+       <li><a href=".\contacts\">Kontaktid</a></li>  
      </ul> 
     </nav> 
 
@@ -89,19 +89,14 @@ $connection->set_charset('utf-8');
 
 --><div class="global_block_2">
  	
-  <p class="text">Folklooriansambel Russitši asutati Slaavi Kultuuri Seltsi juures 1998. aastal. Alates 2000. aastast kuulub ansambel Russitši Sillamäe Kultuurikeskuse juurde. Alates 2002. aastast on ansamblit juhtinud Irina Dubrova. Ansambli repertuaaris on vene rahvalaule Venemaa erinevatest piirkondadest ja erinevatest folkloorisuundadest: pulmalaule, rahvakalendriga seotud laule, ringmängulaule, rahvamänge, lüürikat, tantsulaule, tšastuškasid jne, aga ka stiliseeritud ja populaarseid autorilugusid. Ansambel osaleb regulaarselt vabariiklikel, maakondlikel ja erinevate linnade folklooripühadel ning muudel üritustel. <br><br>
+    <p class="text">Vokaalrühm Kapel loodi 2006. aastal, juhendaja on Aleksandra Ananjeva. Ansambli eesmärk on laulu populariseerimine, kutsudes kokku lapsi ja täiskasvanuid, kes armastavad laulda. Harjutustunnid arendavad loomingulisi võimeid, laiendavad muusikalist silmaringi ja aitavad inimesel avaneda. Osalejad omandavad soolo- ja ansamblilaulmise oskused. <br><br>
+    Kapeli repertuaar on väga laialdane ja mitmekesine ning seda täiendatakse pidevalt.  Osalejad esitavad laule erinevates keeltes. Kapel on rahvusvaheliste konkursside "Gintara Sklaida" (Vilnius), "Vana Riia muusika" (Riia), "Tallinn-Fest" (Tallinn), "Kuldne Hääl" ja "Balti Tähed" (Tartu) laureaat ning rahvusvahelise konkursi "Amberstar" (Riia - Stockholm - Riia) diplomand. Samuti ollakse rahvusvahelise festivali "Jürikuu" (Tallinn) kauaaegne ja mitmekordne võitja. Nad on osalenud ka festivalidel "Kammerton" ja "Квiти України".<br><br>
 
-  Russitši on esinenud paljudes Eesti linnades. Ühistes programmides koos rahvatantsuansambliga Suveniir osalesid nad Europeade rahvamuusika- ja tantsufestivalil Saksamaal, Taanis, Hispaanias, Šveitsis ja FIFO rahvusvahelisel rahvafestivalil Šveitsis. Folklooriansambel Russitši on osalenud enam kui 200 ühiskontserdil ja andnud üle 50 iseseisva kontserdi.<br><br>
-
-  Armastus rahvaloomingu ja vene laulu vastu köidab ja inspireerib alati ansambli liikmeid. Kaasaegne vaade folkloorile koos hooliva suhtumisega rahvuskultuuri võimaldab meil olla pidevas loomingulises otsingus, pakkuda inimestele rõõmu ja säilitada rahvatraditsioone.<br><br>
-
-  Osalevad 18-aastased ja vanemad folkloorihuvilised.<br><br>
-
-  Kontsertmeister on Konstantin Fomichev.
+    Kapeli uksed on alati avatud neile, kes tahavad ja armastavad laulda. Rühm võtab vastu lapsi alates 5. eluaastast ja täiskasvanuid.
 
 
   <div>
-  <img class="foto_rusici" src="../img/rusici.jpg">
+  <img class="foto_rusici" src="../img/kapel.jpg">
   </div>
 
  </div><!--
