@@ -39,12 +39,15 @@
 				<button class="btn btn-success" type="submit">Autoriseerida</button>
 				</form>
 
-			</div>
+			</div> 
 
 		<?php else:  ?>
 
-			<!---<p>Tervist <?=$_COOKIE['user']?>. Tagasi admin <a href="/praktika/">esilehele</a>.</p> -->
-			<a href="./diplom"></a>
+
+
+			<!--<p>Tervist <?=$_COOKIE['user']?>. Tagasi admin <a href="/praktika/">esilehele</a>.</p> -->
+			<!--<a href="./kultuurikeskus"></a> -->
+			<p>Üleminek <a href="./index.php">admin lehele</a></p>
 
 		<?php endif;?>
 

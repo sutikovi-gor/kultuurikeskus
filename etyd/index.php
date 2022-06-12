@@ -9,7 +9,7 @@
 ?>
 
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="/diplom/css/style.css">
+	<link rel="stylesheet" href="/kultuurikeskus/css/style.css">
   
     
   

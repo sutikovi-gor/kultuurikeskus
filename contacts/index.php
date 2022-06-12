@@ -24,7 +24,7 @@
 	<tr><td>Vladimir Võssotski</td><td>Direktor</td><td>55555555</td><td>vladimir@kultuur.ee</td>
 		<tr><td>Igor Šutikov</td><td>Haldusjuht</td><td>55555555</td><td>igor@kultuur.ee</td>
 			<tr><td>Natalja Borissova</td><td>Huvijuht</td><td>55555555</td><td>natalja@kultuur.ee</td>
-				<tr><td>Merike Kütt</td><td>Direktori abi</td><td>55555555</td><td>merike@kultuur.ee</td>
+				<tr><td>Merike Kütt</td><td>Juhiabi</td><td>55555555</td><td>merike@kultuur.ee</td>
 
 
 

@@ -21,6 +21,8 @@ $user = $result->fetch_assoc();
 setcookie('user', $user['name'], time() + 3600 * 2, "/");
 
 
+
+
     $mysql->close();
 
     header('Location: ./')

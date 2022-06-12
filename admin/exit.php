@@ -2,6 +2,6 @@
 
 setcookie('user', $user['name'], time() - 3600 * 2, "/");
 
-header('Location: ./')
+header('Location: ../index.php')
 
 ?>
