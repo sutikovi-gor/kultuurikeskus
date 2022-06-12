@@ -1,7 +1,7 @@
 <?php
 ob_start();
 ?>
-<h1>TOP 5 NEWS </h1>
+<h3>TOP 5 NEWS </h3>
 <br>
 <?php
 ViewNews::NewsByCategory($arr);
